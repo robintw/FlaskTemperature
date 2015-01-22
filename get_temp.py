@@ -7,4 +7,4 @@ def get_temperature():
 	return temperature
 
 if __name__ == "__main__":
-	print temperature
+	print get_temperature()
