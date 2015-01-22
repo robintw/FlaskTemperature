@@ -3,7 +3,7 @@ from get_temp import get_temperature
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/temperature")
+@app.route("/sensor/temperature")
 def hello():
     return str(get_temperature())
 
